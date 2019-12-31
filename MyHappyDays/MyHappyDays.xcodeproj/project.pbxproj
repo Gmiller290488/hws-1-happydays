@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CED91ECD23B913DE009CBCF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91ECC23B913DE009CBCF9 /* AppDelegate.swift */; };
+		CED91ECF23B913DE009CBCF9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91ECE23B913DE009CBCF9 /* SceneDelegate.swift */; };
+		CED91ED123B913DE009CBCF9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91ED023B913DE009CBCF9 /* ViewController.swift */; };
+		CED91ED423B913DE009CBCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED91ED223B913DE009CBCF9 /* Main.storyboard */; };
+		CED91ED623B913DF009CBCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED91ED523B913DF009CBCF9 /* Assets.xcassets */; };
+		CED91ED923B913DF009CBCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CED91ED723B913DF009CBCF9 /* LaunchScreen.storyboard */; };
+		CED91EE423B913DF009CBCF9 /* MyHappyDaysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91EE323B913DF009CBCF9 /* MyHappyDaysTests.swift */; };
+		CED91EEF23BA4DAE009CBCF9 /* MemoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91EEE23BA4DAE009CBCF9 /* MemoriesViewController.swift */; };
+		CED91EF123BA4E87009CBCF9 /* MemoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED91EF023BA4E87009CBCF9 /* MemoryCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CED91EE023B913DF009CBCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CED91EC123B913DE009CBCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CED91EC823B913DE009CBCF9;
+			remoteInfo = MyHappyDays;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CED91EC923B913DE009CBCF9 /* MyHappyDays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHappyDays.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED91ECC23B913DE009CBCF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CED91ECE23B913DE009CBCF9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CED91ED023B913DE009CBCF9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CED91ED323B913DE009CBCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CED91ED523B913DF009CBCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CED91ED823B913DF009CBCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CED91EDA23B913DF009CBCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED91EDF23B913DF009CBCF9 /* MyHappyDaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyHappyDaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED91EE323B913DF009CBCF9 /* MyHappyDaysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHappyDaysTests.swift; sourceTree = "<group>"; };
+		CED91EE523B913DF009CBCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED91EEE23BA4DAE009CBCF9 /* MemoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriesViewController.swift; sourceTree = "<group>"; };
+		CED91EF023BA4E87009CBCF9 /* MemoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CED91EC623B913DE009CBCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED91EDC23B913DF009CBCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CED91EC023B913DE009CBCF9 = {
+			isa = PBXGroup;
+			children = (
+				CED91ECB23B913DE009CBCF9 /* MyHappyDays */,
+				CED91EE223B913DF009CBCF9 /* MyHappyDaysTests */,
+				CED91ECA23B913DE009CBCF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CED91ECA23B913DE009CBCF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CED91EC923B913DE009CBCF9 /* MyHappyDays.app */,
+				CED91EDF23B913DF009CBCF9 /* MyHappyDaysTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CED91ECB23B913DE009CBCF9 /* MyHappyDays */ = {
+			isa = PBXGroup;
+			children = (
+				CED91ECC23B913DE009CBCF9 /* AppDelegate.swift */,
+				CED91ECE23B913DE009CBCF9 /* SceneDelegate.swift */,
+				CED91EEE23BA4DAE009CBCF9 /* MemoriesViewController.swift */,
+				CED91ED023B913DE009CBCF9 /* ViewController.swift */,
+				CED91EF023BA4E87009CBCF9 /* MemoryCell.swift */,
+				CED91ED223B913DE009CBCF9 /* Main.storyboard */,
+				CED91ED523B913DF009CBCF9 /* Assets.xcassets */,
+				CED91ED723B913DF009CBCF9 /* LaunchScreen.storyboard */,
+				CED91EDA23B913DF009CBCF9 /* Info.plist */,
+			);
+			path = MyHappyDays;
+			sourceTree = "<group>";
+		};
+		CED91EE223B913DF009CBCF9 /* MyHappyDaysTests */ = {
+			isa = PBXGroup;
+			children = (
+				CED91EE323B913DF009CBCF9 /* MyHappyDaysTests.swift */,
+				CED91EE523B913DF009CBCF9 /* Info.plist */,
+			);
+			path = MyHappyDaysTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CED91EC823B913DE009CBCF9 /* MyHappyDays */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED91EE823B913DF009CBCF9 /* Build configuration list for PBXNativeTarget "MyHappyDays" */;
+			buildPhases = (
+				CED91EC523B913DE009CBCF9 /* Sources */,
+				CED91EC623B913DE009CBCF9 /* Frameworks */,
+				CED91EC723B913DE009CBCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyHappyDays;
+			productName = MyHappyDays;
+			productReference = CED91EC923B913DE009CBCF9 /* MyHappyDays.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CED91EDE23B913DF009CBCF9 /* MyHappyDaysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CED91EEB23B913DF009CBCF9 /* Build configuration list for PBXNativeTarget "MyHappyDaysTests" */;
+			buildPhases = (
+				CED91EDB23B913DF009CBCF9 /* Sources */,
+				CED91EDC23B913DF009CBCF9 /* Frameworks */,
+				CED91EDD23B913DF009CBCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CED91EE123B913DF009CBCF9 /* PBXTargetDependency */,
+			);
+			name = MyHappyDaysTests;
+			productName = MyHappyDaysTests;
+			productReference = CED91EDF23B913DF009CBCF9 /* MyHappyDaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CED91EC123B913DE009CBCF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Gareth Miller";
+				TargetAttributes = {
+					CED91EC823B913DE009CBCF9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					CED91EDE23B913DF009CBCF9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = CED91EC823B913DE009CBCF9;
+					};
+				};
+			};
+			buildConfigurationList = CED91EC423B913DE009CBCF9 /* Build configuration list for PBXProject "MyHappyDays" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CED91EC023B913DE009CBCF9;
+			productRefGroup = CED91ECA23B913DE009CBCF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CED91EC823B913DE009CBCF9 /* MyHappyDays */,
+				CED91EDE23B913DF009CBCF9 /* MyHappyDaysTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CED91EC723B913DE009CBCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED91ED923B913DF009CBCF9 /* LaunchScreen.storyboard in Resources */,
+				CED91ED623B913DF009CBCF9 /* Assets.xcassets in Resources */,
+				CED91ED423B913DE009CBCF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED91EDD23B913DF009CBCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CED91EC523B913DE009CBCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED91ED123B913DE009CBCF9 /* ViewController.swift in Sources */,
+				CED91ECD23B913DE009CBCF9 /* AppDelegate.swift in Sources */,
+				CED91ECF23B913DE009CBCF9 /* SceneDelegate.swift in Sources */,
+				CED91EEF23BA4DAE009CBCF9 /* MemoriesViewController.swift in Sources */,
+				CED91EF123BA4E87009CBCF9 /* MemoryCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CED91EDB23B913DF009CBCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CED91EE423B913DF009CBCF9 /* MyHappyDaysTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CED91EE123B913DF009CBCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CED91EC823B913DE009CBCF9 /* MyHappyDays */;
+			targetProxy = CED91EE023B913DF009CBCF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CED91ED223B913DE009CBCF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED91ED323B913DE009CBCF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CED91ED723B913DF009CBCF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CED91ED823B913DF009CBCF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CED91EE623B913DF009CBCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CED91EE723B913DF009CBCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CED91EE923B913DF009CBCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHappyDays/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GM.MyHappyDays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CED91EEA23B913DF009CBCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHappyDays/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GM.MyHappyDays;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CED91EEC23B913DF009CBCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHappyDaysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GM.MyHappyDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHappyDays.app/MyHappyDays";
+			};
+			name = Debug;
+		};
+		CED91EED23B913DF009CBCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyHappyDaysTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = GM.MyHappyDaysTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyHappyDays.app/MyHappyDays";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CED91EC423B913DE009CBCF9 /* Build configuration list for PBXProject "MyHappyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED91EE623B913DF009CBCF9 /* Debug */,
+				CED91EE723B913DF009CBCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED91EE823B913DF009CBCF9 /* Build configuration list for PBXNativeTarget "MyHappyDays" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED91EE923B913DF009CBCF9 /* Debug */,
+				CED91EEA23B913DF009CBCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CED91EEB23B913DF009CBCF9 /* Build configuration list for PBXNativeTarget "MyHappyDaysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CED91EEC23B913DF009CBCF9 /* Debug */,
+				CED91EED23B913DF009CBCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CED91EC123B913DE009CBCF9 /* Project object */;
+}
